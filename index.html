@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" title="mainStyle" href="./css/main.css"/>
+    <title>TP HTML</title>
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light py-3" id="mainNav">
+            <a class="navbar-brand js-scrollTo" href="#page-top"><h5 class="font-weight-bold text-danger">TP HTML/CSS</h5></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger text-info js-scrollTo" href="#tableau"><h5 class="c">Tableau</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger text-info js-scrollTo" href="#images"><h5 class="font-weight-light">Images</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger text-info js-scrollTo" href="#Liste"><h5 class="font-weight-light">Liste</h5></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="row bg-danger text-white px-5">
+    <div class="text-center">
+        <h4 class="my-2 font-weight-lighter">Afficher un tableau</h4>
+    </div>
+</div>
+    <div class="container my-5">
+        <div class="row">
+            <table class="table table-sm table-danger text-dark font-weight-lighter table-striped table-borderless my-5">
+                <thead>
+                <tr class="table-light text-center">
+                    <th class="font-weight-normal" scope="col"></th>
+                    <th class="font-weight-normal text-center border border-danger" scope="col" colspan="2">En millions d'Euros</th>
+                    <th class="font-weight-normal text-center border border-danger" scope="col" rowspan="2">2019 en Euros/hab</th>
+                </tr>
+                <tr class="table-light text-center">
+                    <th class="font-weight-normal" scope="col"></th>
+                    <th class="font-weight-normal text-center border border-danger text-center text-center" scope="col">2018</th>
+                    <th class="font-weight-normal" scope="col">2019</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="text-center border-top border-danger">
+                    <th class="font-weight-normal text-left" scope="row">Ile-de-france</th>
+                    <td class="">10</td>
+                    <td class="">20</td>
+                    <td class="">30</td>
+                </tr>
+                <tr class="text-center">
+                    <th class="font-weight-normal text-left" scope="row">Midi-pyrénées</th>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>70</td>
+                </tr>
+                <tr class="text-center border-bottom border-danger">
+                    <th class="font-weight-normal text-left" scope="row">Centre</th>
+                    <td>100</td>
+                    <td>120</td>
+                    <td>230</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!--Section image-->
+    <div class="container-fluid bg-danger">
+        <div class="row bg-danger text-white px-5 border-bottom border-light">
+            <div class="text-center">
+                <h4 class="my-2 font-weight-lighter">Afficher des images</h4>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row pb-5">
+                <div class="col-4 text-center">
+                    <img src="https://images.pexels.com/photos/2947089/pexels-photo-2947089.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="w-50 m-3 img-thumbnail " alt="house1">
+                </div>
+                <div class="col-4 text-center">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/29/03/53/architecture-1867187_1280.jpg" class="w-100 m-3 img-thumbnail " alt="house2">
+                </div>
+                <div class="col-4 text-center">
+                    <img src="https://cdn.pixabay.com/photo/2012/11/21/10/24/building-66789_1280.jpg" class="w-75 m-3 img-thumbnail " alt="house3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section Liste-->
+    <div class="row bg-white text-danger px-5 border border-danger">
+        <div class="text-center">
+            <h4 class="my-2 font-weight-lighter">Afficher une liste</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <ul class="list-unstyled">
+                <li class="media">
+                    <img src="https://cristoeuf.com/kitty_cat_avatar/1_peau/5.png" class="mr-3 h-25 w-25" alt="avat1">
+                    <div class="media-body mt-5">
+                        <h5 class="mt-0 mb-1">Minikatze #1</h5>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, laudantium, vero! Autem dolorem fuga fugiat ipsam iste maxime nam quas quo sequi suscipit, ut voluptatem. Eveniet labore rerum sunt veniam.
+                    </div>
+                </li>
+                <li class="media">
+                    <img src="https://cristoeuf.com/kitty_cat_avatar/1_peau/5.png" class="mr-3 h-25 w-25" alt="avat1">
+                    <div class="media-body mt-5">
+                        <h5 class="mt-0 mb-1">Minikatze #2</h5>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, laudantium, vero! Autem dolorem fuga fugiat ipsam iste maxime nam quas quo sequi suscipit, ut voluptatem. Eveniet labore rerum sunt veniam.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Section Formulaire1-->
+    <div class="container-fluid bg-danger">
+        <div class="row bg-danger text-white px-5 border-bottom border-light">
+            <div class="text-center">
+                <h4 class="my-2 font-weight-lighter">Afficher un premier formulaire</h4>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <form method="post">
+                        <div class="form-group">
+                            <label for="mail"><h5 class="text-white font-weight-lighter">Votre Mail</h5></label>
+                            <input type="email" class="form-control" id="mail" placeholder="nom@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <h5 class="text-white font-weight-lighter">Etes-vous client FNAC ?</h5></label>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="radio1" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="radio1"><h5 class="text-white font-weight-light">Oui</h5></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="radio2" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="radio1"><h5 class="text-white font-weight-light">Non</h5></label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><h5 class="text-white font-weight-lighter">Votre message</h5></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group float-right">
+                            <button type="submit" class="btn btn-outline-light">Envoyer</button>
+                        </div>
+                    </form>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Section Formulaire2-->
+    <div class="container-fluid bg-light">
+        <div class="row bg-light text-danger px-5 border border-danger">
+            <div class="text-center">
+                <h4 class="my-2 font-weight-lighter">Afficher un deuxième formulaire</h4>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <form method="post">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="pseudo"><h5 class="text-danger font-weight-lighter">Pseudonyme</h5></label>
+                                <input type="text" class="form-control border border-danger" id="pseudo">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="mdp"><h5 class="text-danger font-weight-lighter">Mot de passe</h5></label>
+                                <input type="password" class="form-control border border-danger" id="mdp">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <h5 class="text-danger font-weight-lighter">Sexe</h5></label>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="radio3" name="radio4" class="custom-control-input border border-danger">
+                                    <label class="custom-control-label" for="radio3"><h5 class="text-danger font-weight-lighter">Homme</h5></label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="radio4" name="radio4" class="custom-control-input">
+                                    <label class="custom-control-label" for="radio4"><h5 class="text-danger font-weight-lighter">Femme</h5></label>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <h5 class="text-danger font-weight-lighter">Votre âge</h5></label>
+                                <select class="custom-select text-danger border border-danger font-weight-lighter">
+                                    <option selected>Choisir un âge</option>
+                                    <option value="1">- de 18 ans</option>
+                                    <option value="2">18 à 25 ans</option>
+                                    <option value="3">26 à 65 ans</option>
+                                    <option value="3">+ de 65 ans</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="adresse"><h5 class="text-danger font-weight-lighter">Adresse</h5></label>
+                                <textarea class="form-control border border-danger" id="adresse" rows="2"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                    <label class="custom-control-label text-danger" for="customSwitch1"><p class="text-danger font-weight-light">Recevoir la newsletter</p></label>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <div class="float-right">
+                                    <button type="submit" class="btn btn-outline-danger">Envoyer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Section CSS-->
+<div class="container-fluid bg-danger">
+    <div class="row bg-light text-danger px-5 border border-danger">
+        <div class="text-center">
+            <h4 class="my-2 font-weight-lighter">Un peu de CSS</h4>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row bg-danger">
+            <div></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eveniet nam nemo sit tempore tenetur. Deleniti, id magnam nam nemo officia omnis perspiciatis provident quas quasi vel! Dignissimos, nulla, saepe.</p>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>dicta dignissimos, eum explicabo ipsum maiores modi</span>  molestias non,
+                    numquam omnis qui rem <span>dicta dignissimos, eum explicabo ipsum maiores modi </span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eligendi error et harum hic, in inventore numquam officia vitae voluptatibus. Accusamus, aperiam dolorum eum magni non quia! Amet architecto, atque.</p>
+            </div>
+            <div>
+                <span>liste des eleves</span>
+                <ol>
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+                </ol>
+                <div>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate earum est fugiat ipsum iste laborum, sequi sint soluta. Animi consectetur dignissimos esse eveniet hic, ipsa laborum nemo quasi quisquam vel?
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Section CV-->
+<div class="container-fluid bg-light">
+    <div class="row bg-light text-danger px-5 border border-danger">
+        <div class="text-center">
+            <h4 class="my-2 font-weight-lighter">Faire un CV</h4>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://www.stickpng.com/assets/images/585e4bcdcb11b227491c3396.png" class="w-50 m-3 img-thumbnail" alt="house1">
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li><h2 class="font-weight-normal">Adrien MECHIN</h2></li>
+                    <li>1 rue des Tulipe</li>
+                    <li>67000 Strasbourg</li>
+                </ul>
+            </div>
+            <div class="container-fluid mt-5">
+                <div class="row bg-light border-bottom border-dark justify-content-center">
+                    <h3 class="text-dark font-weight-lighter">Formations</h3>
+                </div>
+            </div>
+            <div class="container ">
+                <ul class="list">
+                    <li><span>Université lorem</span> Paris</li>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <li><span>Lycée lorem</span> Paris</li>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <li><span>Collège lorem</span> Paris</li>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                </ul>
+            </div>
+
+            <div class="container-fluid mt-5">
+                <div class="row bg-light border-bottom border-dark justify-content-center">
+                    <h3 class="text-dark font-weight-lighter px-2">Expériences Professionnelles</h3>
+                </div>
+            </div>
+            <div class="container my-3">
+                <ul class="list">
+                    <li><span>Expérience 1</span> Paris</li>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facere fuga iure nemo numquam quidem vitae. Ad at corporis eligendi, facere inventore itaque maiores, maxime minima natus ratione ut vero.</p>
+                    <li><span>Expérience 2</span> Paris</li>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facere fuga iure nemo numquam quidem vitae. Ad at corporis eligendi, facere inventore itaque maiores, maxime minima natus ratione ut vero.</p>
+                    <li><span>Expérience 3</span> Saint-Brieuc</li>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facere fuga iure nemo numquam quidem vitae. Ad at corporis eligendi, facere inventore itaque maiores, maxime minima natus ratione ut vero.</p>
+                    <li><span>Expérience 4</span> Orléans</li>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facere fuga iure nemo numquam quidem vitae. Ad at corporis eligendi, facere inventore itaque maiores, maxime minima natus ratione ut vero.</p>
+                </ul>
+            </div>
+
+            <div class="container-fluid mt-5">
+                <div class="row bg-light border-bottom border-dark justify-content-center">
+                    <h3 class="text-dark font-weight-lighter">Centres d'intérêt</h3>
+                </div>
+            </div>
+            <div class="container my-3">
+                <ul class="list">
+                    <li><span>Voyage</span></li>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <li><span>Course à pied</span></li>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid p-0">
+    <footer>
+            <h5 class="font-weight-lighter border border-danger text-center text-danger p-2">Adrien MECHIN - le 23 septembre 2019</h5>
+    </footer>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
